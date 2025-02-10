@@ -1,11 +1,10 @@
 #include<iostream>
 using namespace std;
  int main(){
- 	int a=2;
- 	
+ 	int num=8;
  	for(int i=1; i<=10; i++){
- 		cout<<a<<" ";
- 		a*=3;
+ 		cout<<num<<" ";
+ 		num=num * i-(i + 1);
+ 		
 	 }
- 	return 0;
  }
